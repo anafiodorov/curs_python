@@ -48,6 +48,9 @@ print(my_list)
 
 
 def my_function_args(param_1, param_2, *args, **kargs):
+    # primul parametru, precedat cu *, are rolul de a prelua toți parametrii poziționali nedeclarați în semnătura funcției, dar transmiși în
+    # momentul apelării acesteia. Ei se vor regăsi într-o listă în ordinea în care au fost transmiși.
+    # al doilea parametru, precedat cu **, are rolul de a prelua toți parametrii cheie:valoare nedeclarați în semnătura funcției, dar transmiși în momentul apelării acesteia. Ei se vor regăsi într-un dicționar.
     print(param_1)
     print(param_2)
     print(args)
@@ -68,15 +71,15 @@ print(get_sum(7))
 
 # EXCEPTII#
 
-# my_var = input('Introduceti un nr:')
-# try:
-#     my_int = int(my_var)
-# except ValueError as e:
-#     print('Please insert an integer! The following error happened: ', e)
-# else:
-#     print('We are here because no exception was fired')
-# finally:
-#     print('We execute this block no matter what')
+my_var = input('Introduceti un nr:')
+try:
+    my_int = int(my_var)
+except ValueError as e:
+    print('Please insert an integer! The following error happened: ', e)
+else:
+    print('We are here because no exception was fired')
+finally:
+    print('We execute this block no matter what')
 
 # NAMESPACES#
 
@@ -128,18 +131,22 @@ class Coordinate(object):
         self.x = x
         self.y = y
 
-
     def __str__(self):
         """Returnam self ca si string"""
         return f"{self.x}, {self.y}"
+
     def distance(self, other):
-        x_diff_sq = (self.x - other.x)**2
-        y_diff_sq = (self.y - other.y)**2
-        return (x_diff_sq + y_diff_sq)**0.5
+        x_diff_sq = (self.x - other.x) ** 2
+        y_diff_sq = (self.y - other.y) ** 2
+        return (x_diff_sq + y_diff_sq) ** 0.5
+
     def get_x(self):
         return self.x
+
     def set_y(self, new_y):
         self.y = new_y
+
+
 a = Coordinate(1, 2)
 print(a)
 origin = Coordinate(0, 0)
@@ -148,7 +155,49 @@ print(origin.distance(a))
 origin.set_y(2)
 print(origin)
 
-#MOSTENIREA#
+
+# MOSTENIREA#
+
+class Animal:
+    def __init__(self, age):
+        self.age = age
+        self.name = None
+
+    def get_age(self):
+        return self.age
+
+    def get_name(self):
+        return self.name
+
+    def set_age(self, newage):
+        self.age = newage
+
+    def set_name(self, newname=""):
+        self.name = newname
+
+    def __str__(self):
+        return "animal:" + str(self.name) + ":" + str(self.age)
 
 
+animal_1 = Animal(20)
+print(animal_1)
+animal_1.set_name("Gogu")
+print(animal_1.name)
 
+
+class Cat(Animal):
+
+    def speak(self):
+        print("meow")
+
+    def __str__(self):
+        return "cat" + ":" + str(self.age)
+
+
+animal_2 = Animal(30)
+print(animal_2)
+animal_3 = Cat(40)
+animal_3.speak()
+print(animal_3)
+animal_3.set_name("Pis")
+print(animal_3.name)

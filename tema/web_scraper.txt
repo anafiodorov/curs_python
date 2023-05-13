@@ -1,0 +1,25 @@
+|TSLA     |Tesla, Inc.                                      |532.413B 
+|PLTR     |Palantir Technologies Inc.                       |21.057B  
+|AMD      |Advanced Micro Devices, Inc.                     |153.403B 
+|AMZN     |Amazon.com, Inc.                                 |1.131T   
+|F        |Ford Motor Company                               |46.571B  
+|SOFI     |SoFi Technologies, Inc.                          |4.721B   
+|NIO      |NIO Inc.                                         |13.418B  
+|MPW      |Medical Properties Trust, Inc.                   |4.582B   
+|AAPL     |Apple Inc.                                       |2.714T   
+|BAC      |Bank of America Corporation                      |217.717B 
+|GOOGL    |Alphabet Inc.                                    |1.437T   
+|PBR      |Petróleo Brasileiro S.A. - Petrobras             |77.352B  
+|RIVN     |Rivian Automotive, Inc.                          |12.363B  
+|CCL      |Carnival Corporation & plc                       |13.119B  
+|KEY      |KeyCorp                                          |8.621B   
+|PYPL     |PayPal Holdings, Inc.                            |71.974B  
+|GOOG     |Alphabet Inc.                                    |1.435T   
+|T        |AT&T Inc.                                        |122.322B 
+|LYFT     |Lyft, Inc.                                       |3.097B   
+|NVDA     |NVIDIA Corporation                               |714.364B 
+|BBD      |Banco Bradesco S.A.                              |33.684B  
+|FSLR     |First Solar, Inc.                                |24.751B  
+|SWN      |Southwestern Energy Company                      |5.53B    
+|PLUG     |Plug Power Inc.                                  |4.592B   
+|UBER     |Uber Technologies, Inc.                          |77.816B  

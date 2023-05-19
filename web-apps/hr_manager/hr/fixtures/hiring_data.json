@@ -1,0 +1,20 @@
+[
+  {
+    "model": "hr.hiring",
+    "fields": {
+      "date_of_employment": "2020-12-12",
+      "date_of_dismissal": "2022-12-12",
+      "employee_id": 1,
+      "employer_id": 1
+    }
+  },
+  {
+    "model": "hr.hiring",
+    "fields": {
+      "date_of_employment": "2019-12-12",
+      "date_of_dismissal": "2021-12-12",
+      "employee_id": 2,
+      "employer_id": 2
+    }
+  }
+]

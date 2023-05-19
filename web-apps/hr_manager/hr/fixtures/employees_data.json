@@ -1,0 +1,22 @@
+[
+  {
+    "model": "hr.employee",
+    "fields": {
+      "first_name": "Mihai",
+      "last_name": "Popescu",
+      "salary": 2000,
+      "created_at": "2022-12-12 11:00:00",
+      "updated_at": "2022-12-12 11:00:00"
+    }
+  },
+  {
+    "model": "hr.employee",
+    "fields": {
+      "first_name": "Ion",
+      "last_name": "Caragea",
+      "salary": 3000,
+      "created_at": "2022-12-12 11:00:00",
+      "updated_at": "2022-12-12 11:00:00"
+    }
+  }
+]

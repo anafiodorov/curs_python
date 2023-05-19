@@ -14,8 +14,8 @@
 |CCL      |Carnival Corporation & plc                       |13.119B  
 |KEY      |KeyCorp                                          |8.621B   
 |PYPL     |PayPal Holdings, Inc.                            |71.974B  
-|GOOG     |Alphabet Inc.                                    |1.435T   
 |T        |AT&T Inc.                                        |122.322B 
+|GOOG     |Alphabet Inc.                                    |1.435T   
 |LYFT     |Lyft, Inc.                                       |3.097B   
 |NVDA     |NVIDIA Corporation                               |714.364B 
 |BBD      |Banco Bradesco S.A.                              |33.684B  
